@@ -26,7 +26,7 @@ function TeamDetails({title, avatar}) {
           />
         {/* <h1>{"Tech Expert's"}</h1> */}
         <h1>{title}</h1>
-        <Link className={styles.link} href="/">Home</Link>
+        <Link className={styles.link} href="/service">Service</Link>
       </div>
     </>
   );

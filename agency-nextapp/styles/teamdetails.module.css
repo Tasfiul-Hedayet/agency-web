@@ -3,18 +3,34 @@
 .page{
     min-height: 40vh;
     width: 30vw;
-    border: 2px dotted black;
+    border: 2px solid black;
     display: flex;
     justify-content:center; 
     align-items: center;
     flex-direction: column;
+    box-shadow: 5px 10px 20px #000000;
+    /* box-shadow: 5px -5px #db0000; */
+    /* background-color: aqua; */
 }
 
 .img {
+    margin-top: 10px;
     background-color: red;
     border-radius: 50%;
 }
 
 .link{
     margin-bottom: 30px;
+}
+
+.page > h1{
+    margin: 10px;
+    font-size: x-large;
+}
+
+@media only screen and (max-width: 600px){
+    .page{
+        min-height: 20vh;
+        width: 70vw;
+    }
 }

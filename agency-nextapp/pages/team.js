@@ -12,7 +12,10 @@ function team() {
   return (
     <div className={styles.page}>
     <TeamDetails title={title}  avatar={avatar} />
-    
+    <TeamDetails title={title1}  avatar={avatar} />
+    <TeamDetails title={title1}  avatar={avatar} />
+    <TeamDetails title={title1}  avatar={avatar} />
+    <TeamDetails title={title1}  avatar={avatar} />
     <TeamDetails title={title1}  avatar={avatar} />
     </div>
   )

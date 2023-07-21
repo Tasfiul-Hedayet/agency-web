@@ -3,8 +3,20 @@
 .page{
     min-width: 100vh;
     width: 100vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-top: 10vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 20px;
+    /* justify-content: space-around; */
+    margin-top: 10vh; 
+    margin-left: 20px;
+}
+
+
+@media only screen and (max-width: 600px){
+    .page{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 150px;
+        row-gap: 50px;
+    }
 }

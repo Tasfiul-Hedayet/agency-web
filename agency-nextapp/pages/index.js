@@ -1,12 +1,14 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
-import team from './team'
+import Link from 'next/link'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
     <>
-    <team/>
+    <div>
+      <Link href='/team'>Team</Link>
+    </div>
     </>
   )
 }

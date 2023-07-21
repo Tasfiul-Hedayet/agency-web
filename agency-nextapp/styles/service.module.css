@@ -48,6 +48,14 @@
 }
 
 @media only screen and (max-width: 600px){
+
+    .servicePage{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 50px;
+        row-gap: 50px;
+    }
+
     .page{
         min-height: 20vh;
         width: 70vw;

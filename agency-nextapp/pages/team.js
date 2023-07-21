@@ -2,10 +2,10 @@ import TeamDetails from '@/components/TeamDetails'
 import React from 'react'
 import styles from "@/styles/team.module.css";
 
-function Team() {
+function team() {
 
   const avatar = '/srk.jpg';
-  const description = 'Gregorio Y. Zara';
+  // const description = 'Gregorio Y. Zara';
   const title = 'Tech Expert'
   const title1 = 'SEO Expert'
 
@@ -21,4 +21,4 @@ function Team() {
   )
 }
 
-export default Team
+export default team;

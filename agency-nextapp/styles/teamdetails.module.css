@@ -30,7 +30,17 @@
 
 @media only screen and (max-width: 600px){
     .page{
-        min-height: 20vh;
-        width: 70vw;
+        min-height: 60vh;
+        width: 100vw;
+    }
+
+    .page > h1{
+        margin: 40px;
+        font-size: 50px;
+    }
+
+    .link{
+        font-size: 35px;
+        margin-bottom: 20px;
     }
 }

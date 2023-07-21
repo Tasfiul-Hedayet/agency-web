@@ -20,8 +20,8 @@ function TeamDetails({title, avatar}) {
             className={styles.img}
             // src="/srk.jpg"
             src = {avatar}
-            width={150}
-            height={150}
+            width={200}
+            height={200}
             alt="Picture of Team member"
           />
         {/* <h1>{"Tech Expert's"}</h1> */}

@@ -2,7 +2,7 @@ import TeamDetails from '@/components/TeamDetails'
 import React from 'react'
 import styles from "@/styles/team.module.css";
 
-function team() {
+function Team() {
 
   const avatar = '/srk.jpg';
   const description = 'Gregorio Y. Zara';
@@ -21,4 +21,4 @@ function team() {
   )
 }
 
-export default team
+export default Team

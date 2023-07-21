@@ -1,0 +1,20 @@
+
+
+.page{
+    min-height: 40vh;
+    width: 30vw;
+    border: 2px dotted black;
+    display: flex;
+    justify-content:center; 
+    align-items: center;
+    flex-direction: column;
+}
+
+.img {
+    background-color: red;
+    border-radius: 50%;
+}
+
+.link{
+    margin-bottom: 30px;
+}

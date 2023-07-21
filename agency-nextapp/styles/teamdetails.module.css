@@ -30,8 +30,8 @@
 
 @media only screen and (max-width: 600px){
     .page{
-        min-height: 60vh;
-        width: 100vw;
+        min-height: 50vh;
+        width: 90vw;
     }
 
     .page > h1{
